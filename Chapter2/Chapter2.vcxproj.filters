@@ -42,5 +42,14 @@
     <ClCompile Include="1.8_연산자와 첫만남.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1.9_기본적인 서식맞추기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1.10_선언과 정의의 분리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1.11_헤더파일 만들기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
