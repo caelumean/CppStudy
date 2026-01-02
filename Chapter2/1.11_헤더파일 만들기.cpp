@@ -13,6 +13,9 @@ using namespace std;
 // 4. int add(int a, int b); -> 선언하기
 // 5. #include "1.11.1_add.h" -> 인클루드 해주기
 
+// 링킹 에러
+// 어떻게 작동할 지 몸체가 없어서 생기는 에러이다.
+
 
 int main()
 {
