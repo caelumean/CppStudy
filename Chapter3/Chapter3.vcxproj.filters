@@ -45,5 +45,8 @@
     <ClCompile Include="2.7.1_연습문제.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2.8_리터럴 상수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
