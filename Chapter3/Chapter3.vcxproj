@@ -129,7 +129,7 @@
     <ClCompile Include="2.2_정수형.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2.3_.고정너비정수.cpp">
+    <ClCompile Include="2.3_고정너비정수.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="2.4_보이드타입.cpp">
@@ -147,6 +147,9 @@
     <ClCompile Include="2.7_문자형.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2.9_심볼릭 상수.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2.6.1_연습문제.cpp">
@@ -157,7 +160,12 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2.8_리터럴 상수.cpp" />
+    <ClCompile Include="2.8_리터럴 상수.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="2.9.1_MyCONSTANTS.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
