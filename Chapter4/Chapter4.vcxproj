@@ -147,7 +147,10 @@
     <ClCompile Include="3.7_이진수.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3.8_비트단위연산자.cpp" />
+    <ClCompile Include="3.8_비트단위연산자.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="3.9.1_연습문제.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3.1.1_연습문제.cpp">
@@ -162,6 +165,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="3.1.2_pow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3.9_비트플래그,비트마스크.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
