@@ -39,6 +39,18 @@
     <ClCompile Include="3.5_관계연산자.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="3.6_논리연산자.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3.6.1_연습문제.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3.7_이진수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3.8_비트단위연산자.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="3.1.2_pow.h">
