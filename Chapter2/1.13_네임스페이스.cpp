@@ -1,4 +1,5 @@
 #include <iostream>
+
 namespace MySpace1
 {
 	int doSomething(int a, int b)
