@@ -127,7 +127,12 @@
       <LanguageStandard Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdcpp20</LanguageStandard>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="4.2_MyConstants.cpp" />
+    <ClCompile Include="4.2_test.cpp" />
     <ClCompile Include="4.2_전역 변수, 정적 변수, 내부 연결, 외부 연결.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="4.2_MyConstant.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

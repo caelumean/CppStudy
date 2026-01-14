@@ -21,5 +21,16 @@
     <ClCompile Include="4.2_전역 변수, 정적 변수, 내부 연결, 외부 연결.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="4.2_test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4.2_MyConstants.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="4.2_MyConstant.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
