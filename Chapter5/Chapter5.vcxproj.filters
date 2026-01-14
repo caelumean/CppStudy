@@ -27,9 +27,33 @@
     <ClCompile Include="4.2_MyConstants.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="4.3_Using문과 모호성.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4.4_auto 키워드와 자료형 추론.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4.5_형변환 Type conversion.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4.6_문자열 std string 소개.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4.7_열거형 enumerated types.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4.8_영역 제한 열거형 (열거형 클래스).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4.9_자료형에게 가명 붙여주기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4.10_구조체 struct.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="4.2_MyConstant.h">
+    <ClInclude Include="4.2_MyConstants.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
