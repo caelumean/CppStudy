@@ -11,6 +11,8 @@ using namespace std;
 struct Person
 {
 	// 멤버라고 부른다.
+	// 직접 초기화하는 방법
+	// double height = 170.0;
 	double height;
 	float weight;
 	int age;
@@ -39,13 +41,20 @@ void printPerson(Person per)
 	cout << endl;
 }
 // 함수가 구조체를 반환할 수 있도록 할 수 있다.
-Person getMe()
+Person getActor()
 {
 	Person louis{ 180.0,78.0,34,"Louis" };
 
 	return louis;
 
 }
+
+struct Employee		// 2 + 4 + 8 = 14
+{
+	short id;		// 2byte
+	int age;		// 4byte
+	double wage;	// 8byte
+};
 int main()
 {
 	// 여기서 uniform initialization이 유용하게 쓰인다.
@@ -61,8 +70,22 @@ int main()
 	printPerson(me);
 	friend1.print();
 
-	Person louis_from_func = getMe();
+	Person louis_from_func = getActor();
 	louis_from_func.print();
+
+
+	// 초기화를 할 때 주의사항
+	// 구조체 안에 직접 초기화를 할 수 있다.
+	// 사용자가 초기값을 넣어줄 때에는 
+	// 사용자가 초기값을 넣어준 걸로 출력이 된다.
+
+
+	Employee empl;
+
+	// 16이 출력이 된다. // padding
+	// 구조체 관련 최적화
+	cout << sizeof(empl) << endl;
+
 
 	return 0;
 }
