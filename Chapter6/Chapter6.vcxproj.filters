@@ -36,5 +36,14 @@
     <ClCompile Include="5.7_반복문 for.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="5.8_break, continue.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5.9_난수 만들기 random numbers.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5.10_cin 더 잘 쓰기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
