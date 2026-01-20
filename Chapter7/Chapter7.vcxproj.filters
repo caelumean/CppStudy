@@ -63,5 +63,25 @@
     <ClCompile Include="6.14_참조 변수 reference variable.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="6.15_참조와 const.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6.17_C++11 For-each 반복문.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6.18_보이드 포인터.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6.19_다중 포인터와 동적 다차원 배열.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6.20_std_array 소개.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="6.16_포인터와 참조의 멤버 선택.cpp">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
 </Project>
