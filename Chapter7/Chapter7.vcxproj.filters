@@ -54,5 +54,14 @@
     <ClCompile Include="6.11_메모리 동적 할당 new와 delete.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="6.12_동적 할당 배열.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6.13_포인터와 const.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6.14_참조 변수 reference variable.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
