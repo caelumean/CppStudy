@@ -45,5 +45,14 @@
     <ClCompile Include="6.8_포인터와 정적 배열.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="6.9_포인터 연산과 배열 인덱싱.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6.10_C언어 스타일의 문자열 심볼릭 상수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6.11_메모리 동적 할당 new와 delete.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
