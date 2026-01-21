@@ -78,6 +78,9 @@
     <ClCompile Include="6.20_std_array 소개.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="6.21_vector 소개.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6.16_포인터와 참조의 멤버 선택.cpp">

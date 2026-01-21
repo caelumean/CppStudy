@@ -159,6 +159,7 @@
     <ClCompile Include="6.20_std_array 소개.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="6.21_vector 소개.cpp" />
     <ClCompile Include="6.2_배열 기초array2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
