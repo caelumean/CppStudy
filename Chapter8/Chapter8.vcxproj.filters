@@ -18,5 +18,8 @@
     <ClCompile Include="7.1_매개변수와 실인자의 구분.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="7.2_값에 의한 전달.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
