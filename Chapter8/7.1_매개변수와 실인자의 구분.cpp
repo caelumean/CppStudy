@@ -23,7 +23,7 @@ int main()
 {
 	int x = 1, y = 2;
 
-	foo(6, 7);	// arguments (actual paremters)
+	foo(6, 7);	// arguments (actual paremters, 실매개변수)
 	foo(x, y);
 
 	return 0;
